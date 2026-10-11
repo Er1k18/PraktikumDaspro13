@@ -1,4 +1,4 @@
-package Pertemuan7;
+//package Pertemuan7;
 import java.util.Scanner;
 
 public class studiKasus2_13 {

@@ -3,7 +3,7 @@ Nama    :Erik Irwansyah
 Nim     :264107020261
 Kelas   :TI 1E
 
-Hasil Uji Studi Kasus 2 oleh <Arga>
+Hasil Uji Studi Kasus 2 oleh Arga
 
 | No | Jenis  | Dokumen | Juara/Dana | Output       | Sesuai? |
 |----|------- |---------|------------|--------      |---------|
@@ -11,7 +11,7 @@ Hasil Uji Studi Kasus 2 oleh <Arga>
 | 2  |PKM     | 3       | 1          | Tidak Berhak | Ya      |
 | 3  |BELMAWA | 4       | 2          | Berhak       | Ya      |
 
-Hasil Uji Tambahan oleh <Arga>
+Hasil Uji Tambahan oleh Arga
 Nilai Presensi Pemilik : 13
 
 | No | Jenis  | Dokumen | Juara/Dana      | Output       | Sesuai? |
@@ -21,7 +21,7 @@ Nilai Presensi Pemilik : 13
 | 3  |PKM     | 4       | 1               | Berhak       | Ya      |
 | 4  |LAINNYA | 4       |Tidak ditanyakan | Tidak Berhak | Ya      |
 
-Hasil Uji Studi Kasus 2 oleh <Jonatan>
+Hasil Uji Studi Kasus 2 oleh Jonatan
 
 | No | Jenis  | Dokumen | Juara/Dana | Output       | Sesuai? |
 |----|------- |---------|------------|--------      |---------|
@@ -29,7 +29,7 @@ Hasil Uji Studi Kasus 2 oleh <Jonatan>
 | 2  |BELMAWA | 2       | 1          | Tidak Berhak | Ya      |
 | 3  |MANDIRI | 2       | 1          | Tidak Berhak | Ya      |
 
-Hasil Uji Tambahan Berdasarkan Nomor Presensi oleh <Jonatan>
+Hasil Uji Tambahan Berdasarkan Nomor Presensi oleh Jonatan
 Nilai Presensi Pemilik : 13
 
 | No | Jenis  | Dokumen | Juara/Dana      | Output       | Sesuai? |

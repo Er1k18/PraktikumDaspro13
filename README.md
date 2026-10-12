@@ -20,3 +20,21 @@ Nilai Presensi Pemilik : 13
 | 2  |MANDIRI | 4       | 0               | Tidak Berhak | Ya      |
 | 3  |PKM     | 4       | 1               | Berhak       | Ya      |
 | 4  |LAINNYA | 4       |Tidak ditanyakan | Tidak Berhak | Ya      |
+
+Hasil Uji Studi Kasus 2 oleh <Jonatan>
+
+| No | Jenis  | Dokumen | Juara/Dana | Output       | Sesuai? |
+|----|------- |---------|------------|--------      |---------|
+| 1  |PKM     | 4       | 0          | Tidak Berhak | Ya      |
+| 2  |BELMAWA | 2       | 1          | Tidak Berhak | Ya      |
+| 3  |MANDIRI | 2       | 1          | Tidak Berhak | Ya      |
+
+Hasil Uji Tambahan Berdasarkan Nomor Presensi oleh <Jonatan>
+Nilai Presensi Pemilik : 13
+
+| No | Jenis  | Dokumen | Juara/Dana      | Output       | Sesuai? |
+|----|------- |---------|------------     |--------      |---------|
+| 1  |BAKORMA | 3       | 1               | Tidak Berhak | Ya      |
+| 2  |MANDIRI | 4       | 0               | Tidak Berhak | Ya      |
+| 3  |PKM     | 4       | 1               | Berhak       | Ya      |
+| 4  |PKM     | 3       | 1               | Tidak Berhak | Ya      |

@@ -11,7 +11,7 @@ Hasil Uji Studi Kasus 2 oleh Arga
 | 2  |PKM     | 3       | 1          | Tidak Berhak | Ya      |
 | 3  |BELMAWA | 4       | 2          | Berhak       | Ya      |
 
-Hasil Uji Tambahan oleh Arga
+Hasil Uji Tambahan oleh Arga Ganteng Abiz
 Nilai Presensi Pemilik : 13
 
 | No | Jenis  | Dokumen | Juara/Dana      | Output       | Sesuai? |

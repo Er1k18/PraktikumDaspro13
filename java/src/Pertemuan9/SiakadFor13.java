@@ -8,6 +8,8 @@ public class SiakadFor13 {
     public static void main(String[] args) {
         Scanner Erik = new Scanner(System.in);
         double nilai, tertinggi = 0, terendah = 100;
+        int jmlLulus = 0;
+        int jmlTidakLulus = 0;
 
         for (int i = 1 ; i <= 11 ; i++) {
             System.out.print("Masukkan nilai mahasiswa ke-" + i + ": ");
@@ -18,8 +20,15 @@ public class SiakadFor13 {
             if (nilai < terendah) {
             terendah = nilai;
             }
+            if (nilai >= 57) {
+                jmlLulus++;
+            } else {
+                jmlTidakLulus++;
+            }
         }
         System.out.println("Nilai Tertinggi :" + tertinggi );
         System.out.println("Nilai Tertinggi :" + terendah );
+        System.out.println("Jumlah mahasiswa lulus : " + jmlLulus);
+        System.out.println("Jumlah mahasiswa tidak lulus : " + jmlTidakLulus);
     }
 }

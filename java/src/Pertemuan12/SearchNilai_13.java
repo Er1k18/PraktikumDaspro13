@@ -31,7 +31,8 @@ public class SearchNilai_13 {
         }
 
         if (!ditemukan) {
-            System.out.println("Nilai " + key + " tidak ditemukan.");
-        }
+        System.out.println("Nilai yang dicari tidak ditemukan! Nilai " + key + " tidak ada di dalam daftar nilai mahasiswa.");
+         }
+
     }
 }

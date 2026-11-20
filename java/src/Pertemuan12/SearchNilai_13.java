@@ -8,7 +8,7 @@ public class SearchNilai_13 {
     public static void main(String[] args) {
         Scanner Erik = new Scanner(System.in);
         int[] nilai = {78, 65, 90, 55, 88, 72};
-        int key = 90;
+        int key = 63;
         boolean ditemukan = false;
 
         for (int i = 0; i < nilai.length; i++) {

@@ -10,6 +10,7 @@ public class ArrayRataNilai_13 {
         Scanner Erik = new Scanner(System.in);
         int[] nilaiMhs = new int[10];
         int total = 0;
+        int jmlLulus = 0;
         double rata2;
 
         for (int i = 0; i < nilaiMhs.length; i++) {
@@ -17,11 +18,15 @@ public class ArrayRataNilai_13 {
             nilaiMhs[i] = Erik.nextInt();
             total += nilaiMhs[i];
 
+            if (nilaiMhs [i] > 70) {
+                jmlLulus++;
+            }
         }
 
         rata2 = (double) total / nilaiMhs.length;
         System.out.println("Total nilai: " + total);
         System.out.println("Rata-rata: " + rata2);
+        System.out.println("Banyaknya mahasiswa lulus dengan nilai ( > 70 ) : " + jmlLulus);
 
 
         int tertinggi = nilaiMhs[0];

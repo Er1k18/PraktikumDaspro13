@@ -7,8 +7,19 @@ import java.util.Scanner;
 public class SearchNilai_13 {
     public static void main(String[] args) {
         Scanner Erik = new Scanner(System.in);
-        int[] nilai = {78, 65, 90, 55, 88, 72};
-        int key = 63;
+
+        System.out.print("Masukkan banyaknya nilai yang akan diinput: ");
+        int jml = Erik.nextInt();
+        int[] nilai = new int[jml];
+
+        for (int i = 0; i < nilai.length; i++) {
+            System.out.print("Masukkan nilai mahasiswa ke-" + (i + 1) + ": ");
+            nilai[i] = Erik.nextInt();
+        }
+
+        System.out.print("Masukkan nilai (key) yang ingin dicari: ");
+        int key = Erik.nextInt();
+
         boolean ditemukan = false;
 
         for (int i = 0; i < nilai.length; i++) {

@@ -18,29 +18,37 @@ public class BioskopWithScanner_13 {
             Erik.nextLine();
 
             if (menu == 1) {
-                System.out.print("Masukkan nama: ");
-                nama = Erik.nextLine();
-
                 while (true) {
-                    System.out.print("Masukkan baris: ");
-                    baris = Erik.nextInt();
-                    System.out.print("Masukkan kolom: ");
-                    kolom = Erik.nextInt();
-                    Erik.nextLine();
+                    System.out.print("Masukkan nama: ");
+                    nama = Erik.nextLine();
 
-                    if (baris < 1 || baris > penonton.length || kolom < 1 || kolom > penonton[0].length) {
-                        System.out.println("Nomor baris atau kolom tidak tersedia!");
-                    } else {
-                        penonton[baris - 1][kolom - 1] = nama;
+                    while (true) {
+                        System.out.print("Masukkan baris: ");
+                        baris = Erik.nextInt();
+                        System.out.print("Masukkan kolom: ");
+                        kolom = Erik.nextInt();
+                        Erik.nextLine();
+
+                        if (baris < 1 || baris > penonton.length || kolom < 1 || kolom > penonton[0].length) {
+                            System.out.println("Nomor baris atau kolom tidak tersedia! Silakan masukkan lagi.");
+                        } 
+                        else if (penonton[baris - 1][kolom - 1] != null) {
+                            System.out.println("Kursi sudah terisi oleh " + penonton[baris - 1][kolom - 1] + "! Silakan pilih kursi lain.");
+                        } 
+                        else {
+                            break;
+                        }
                     }
-                    
+
+                    penonton[baris - 1][kolom - 1] = nama;
+
                     System.out.print("Input penonton lainnya? (y/n): ");
                     pilihan = Erik.nextLine();
-                    
                     if (pilihan.equalsIgnoreCase("n")) {
-                    break;
+                        break;
                     }
                 }
+                
             } else if (menu == 2) {
                 System.out.println("\nDaftar Penonton:");
                 for (int i = 0; i < penonton.length; i++) {

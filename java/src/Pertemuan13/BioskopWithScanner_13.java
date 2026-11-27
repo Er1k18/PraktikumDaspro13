@@ -50,13 +50,15 @@ public class BioskopWithScanner_13 {
                 }
                 
             } else if (menu == 2) {
-                System.out.println("\nDaftar Penonton:");
+                System.out.println("\n--- Daftar Penonton ---");
                 for (int i = 0; i < penonton.length; i++) {
                     for (int j = 0; j < penonton[i].length; j++) {
-                        System.out.print(penonton[i][j] + "\t");
+                        String tampilan = (penonton[i][j] == null) ? "***" : penonton[i][j];
+                        System.out.print(tampilan + "\t");
                     }
                     System.out.println();
                 }
+
             } else if (menu == 3) {
                 break;
             } else {

@@ -18,18 +18,21 @@ public class BioskopWithScanner_13 {
             Erik.nextLine();
 
             if (menu == 1) {
+                System.out.print("Masukkan nama: ");
+                nama = Erik.nextLine();
 
                 while (true) {
-                    System.out.print("Masukkan nama: ");
-                    nama = Erik.nextLine();
                     System.out.print("Masukkan baris: ");
                     baris = Erik.nextInt();
                     System.out.print("Masukkan kolom: ");
                     kolom = Erik.nextInt();
                     Erik.nextLine();
-                    
-                
-                    penonton[baris - 1][kolom - 1] = nama;
+
+                    if (baris < 1 || baris > penonton.length || kolom < 1 || kolom > penonton[0].length) {
+                        System.out.println("Nomor baris atau kolom tidak tersedia!");
+                    } else {
+                        penonton[baris - 1][kolom - 1] = nama;
+                    }
                     
                     System.out.print("Input penonton lainnya? (y/n): ");
                     pilihan = Erik.nextLine();
